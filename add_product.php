@@ -41,7 +41,7 @@
      <div class="templatemo_topmenu">
 
       <ul>
-         <li><a href="user_profile.php" ></a></li>
+         <li><a href="user_profile.php" >HOME</a></li>
          <li ><a href="add_product.php">ADD PRODUCT</a> </li>
           <li><a href="my_bid.php" >MY BIDDING</a></li>
          <li class="current"><a href="category.php">CATEGORIES</a></li>
