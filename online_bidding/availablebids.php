@@ -28,7 +28,7 @@
     <!-- <link href="templatemo_style.css" rel="stylesheet" type="text/css" /> -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body>
+<body  style="background-color: rgb(255, 236, 219);">
     <nav>
         <label class="logo">Bid Hub</label>
         <ul>
@@ -43,7 +43,7 @@
     <br><br>
     <div id="templatemo_left_content">
 
-     <h1 style="text-align: center;">AVAILABLE BIDS</h1>
+     <h1 style="font-size: 2.5em; text-align:center; font-family: 'Poppins', sans-serif; color: #004094;">AVAILABLE BIDS</h1>
 <br><br>
      <form action="add_product_code.php" method="post" enctype="multipart/form-data" name="form3" id="form3">
        <table width="100%" border="0">
@@ -96,17 +96,17 @@ while($row=mysqli_fetch_array($ret))
    </div>
 
 
-      <div class="wrapper-1">
-    <h1 style="padding-top: 20px;">We Make Cooking Easy</h1>
+      <div class="wrapper-1"  style="background-color: rgb(255, 236, 219);">
+    <h1 style="padding-top: 20px;">We Make Bidding Easy</h1>
     <div class="image-area-1">
-      <div class="single-image-1"><img src="Cheese Pav Bhaji – Easy Winter Warming Recipe.png" alt="">
-        <div class="img-name-1"><h2>Homely Taste</h2></div>
+      <div class="single-image-1"><img src="trust.jpg" alt="">
+       
       </div>
-      <div class="single-image-1"><img src="Chef Girl.jfif" alt="">
-        <div class="img-name-1"><h2>Easy to Make</h2></div>
+      <div class="single-image-1"><img src="choice.jpg" alt="">
+        
       </div>
-      <div class="single-image-1"><img src="serveithot1.jpg" alt="">
-        <div class="img-name-1"><h2>Serve it Hot</h2></div>
+      <div class="single-image-1"><img src="auction1.jpg" alt="">
+       
       </div>
     </div>
   </div>
