@@ -10,7 +10,13 @@ $mail=$_POST['mail'];
 $addrs=$_POST['add'];
 $phn=$_POST['ph'];
 $pattern = "^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$^";  
-  
+
+if($bid_prc < $price)
+{
+	echo "Bid price should be greater than base price";
+}
+else{
+
 $ins="insert into bidding values ('','".$b_date."','".$p_name."','".$cart."','".$price."','".$bid_prc."','".$name."','".$mail."','".$addrs."','".$phn."')";
 $rel=mysqli_query($con,$ins)or die(mysqli_connect_error());
 if($rel)
@@ -21,5 +27,6 @@ if($rel)
 else
 {
 	echo "Fail";
+}
 }
 ?>

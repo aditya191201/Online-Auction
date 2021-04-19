@@ -38,7 +38,7 @@ $vv=mysqli_query($con,$i) or die("error".mysqli_connect_error());
 if($vv)
 {
 //echo ("registed");
-header("location:add_product.php");
+header("location:add_product1.php");
 }
 else
 {

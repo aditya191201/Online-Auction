@@ -57,7 +57,7 @@ a.active,a:hover{
 .single-image-1
 {
     padding: 0 50px 50px;
-    
+
 }
 .single-image-1 img
 {
@@ -72,4 +72,20 @@ a.active,a:hover{
     margin-top: 30px;
     font-size: 1.7em;
     font-family: 'Poppins', sans-serif;
+}
+.showmore
+{
+    width: auto;
+    display: inline-block;
+    position: relative;
+    padding: 0.6rem 1rem;
+    border: 3px solid #ffffff;
+    font-size: 1.3rem;
+    color: #000000;
+    background-image: linear-gradient(315deg,#7debdc,#47f575,#29e7cd);
+    transform: translateY(460px);
+    border-radius: 30px;
+    transition: 0.5s;
+    margin-left: 34%;
+    margin-top: 2%;
 }
